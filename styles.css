@@ -161,7 +161,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: 
+    background-image:
         repeating-linear-gradient(
             0deg,
             transparent,
@@ -455,6 +455,95 @@ body {
 }
 
 /* ==========================================
+   ROADMAP / COMING SOON SECTION
+   ========================================== */
+
+.roadmap-section {
+    background: rgba(31, 41, 51, 0.5);
+}
+
+.roadmap-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.roadmap-card {
+    background: rgba(31, 41, 51, 0.6);
+    border: 1px solid rgba(201, 166, 107, 0.15);
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    position: relative;
+    transition: var(--transition);
+}
+
+.roadmap-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    border-color: rgba(201, 166, 107, 0.3);
+}
+
+.roadmap-badge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, var(--color-accent) 0%, #B8935A 100%);
+    color: var(--color-dark);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.35rem 1rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.roadmap-icon {
+    color: var(--color-text-secondary);
+    margin-bottom: 1.5rem;
+    opacity: 0.7;
+}
+
+.roadmap-icon svg {
+    stroke: var(--color-text-secondary);
+}
+
+.roadmap-title {
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+}
+
+.roadmap-description {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+}
+
+/* ==========================================
+   LEARNING SECTION
+   ========================================== */
+
+.learning-section {
+    background: var(--color-bg);
+}
+
+.learning-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.learning-text {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+}
+
+/* ==========================================
    CTA BANNER
    ========================================== */
 
@@ -607,6 +696,11 @@ body {
         gap: 1.5rem;
     }
 
+    .roadmap-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
     .ethos-quote {
         font-size: 1.375rem;
         padding: 0 1rem;
@@ -618,6 +712,10 @@ body {
 
     .container {
         padding: 0 1.5rem;
+    }
+
+    .learning-text {
+        font-size: 1.125rem;
     }
 }
 
