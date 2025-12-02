@@ -136,6 +136,18 @@ body {
     padding: 0.6rem 1.25rem !important;
     font-size: 0.9rem !important;
     margin-left: 1rem;
+    background: transparent;
+    color: var(--color-accent) !important;
+    border: 2px solid var(--color-accent);
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.btn-nav-cta:hover {
+    background: var(--color-accent);
+    color: var(--color-dark) !important;
 }
 
 .mobile-menu-toggle {
