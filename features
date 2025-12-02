@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Aureal's features: GPS hunt tracking, find logging, historic map overlays, PermissionLink™, Apple Watch integration, and more.">
+    <meta name="keywords" content="metal detecting app features, hunt tracking, find logging, historic maps, PermissionLink, Apple Watch metal detecting">
+    <meta property="og:title" content="Features - Aureal Metal Detecting Companion">
+    <meta property="og:description" content="Discover all the tools Aureal provides for modern detectorists.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.aureallabs.com/features">
+    <title>Features - Aureal Metal Detecting Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">AU</span>
+                <span class="logo-text">Aureal</span>
+            </a>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html" class="active">Features</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSesVLt5tCcgFKJPv9YpGJZncN2zxLc_lmVhecPWRiLz07H13A/viewform?usp=header" class="btn btn-nav-cta">Get Early Access</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Everything You Need in the Field</h1>
+            <p class="page-subtitle">Aureal combines powerful hunt tracking, intuitive find logging, and historic research tools in one beautifully designed app.</p>
+        </div>
+    </section>
+
+    <!-- Hunt Tracking Section -->
+    <section class="section feature-detail-section" id="hunt-tracking">
+        <div class="container">
+            <div class="feature-detail">
+                <div class="feature-detail-content">
+                    <div class="feature-badge">Core Feature</div>
+                    <h2>Live Hunt Tracking</h2>
+                    <p class="feature-lead">See exactly where you've been, where you haven't, and how efficiently you're covering ground — all in real-time.</p>
+                    <ul class="feature-list">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            GPS breadcrumb trails that show your exact path
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Coverage analysis to identify missed areas
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Works completely offline — no cell signal needed
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Session duration, distance, and pace tracking
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Resume hunts across multiple sessions
+                        </li>
+                    </ul>
+                </div>
+                <div class="feature-detail-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Find Logging Section -->
+    <section class="section feature-detail-section alt-bg" id="find-logging">
+        <div class="container">
+            <div class="feature-detail reverse">
+                <div class="feature-detail-content">
+                    <div class="feature-badge">Core Feature</div>
+                    <h2>Find Logging That Feels Effortless</h2>
+                    <p class="feature-lead">Document every discovery with photos, depth, materials, GPS coordinates, and notes — all organized and searchable forever.</p>
+                    <ul class="feature-list">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Quick-capture with smart defaults
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Multiple photos per find
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Material tags: coin, relic, jewelry, trash, and more
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Depth recording in inches or centimeters
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Search and filter your entire find history
+                        </li>
+                    </ul>
+                </div>
+                <div class="feature-detail-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historic Overlays Section -->
+    <section class="section feature-detail-section" id="overlays">
+        <div class="container">
+            <div class="feature-detail">
+                <div class="feature-detail-content">
+                    <div class="feature-badge">Pro Feature</div>
+                    <h2>Historic & Custom Map Overlays</h2>
+                    <p class="feature-lead">Layer old plats, aerials, and research images over modern maps to uncover forgotten structures, paths, and homesites.</p>
+                    <ul class="feature-list">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Import any image as a custom overlay
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Two-point anchoring for precision alignment
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Adjustable opacity for easy comparison
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Toggle overlays during active hunts
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            LiDAR data support for terrain analysis
+                        </li>
+                    </ul>
+                    <p class="feature-note"><strong>No other detecting app gives users this level of research power.</strong></p>
+                </div>
+                <div class="feature-detail-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="3" y1="9" x2="21" y2="9"></line>
+                        <line x1="9" y1="21" x2="9" y2="9"></line>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PermissionLink Section -->
+    <section class="section feature-detail-section alt-bg" id="permissionlink">
+        <div class="container">
+            <div class="feature-detail reverse">
+                <div class="feature-detail-content">
+                    <div class="feature-badge">Coming Soon</div>
+                    <h2>PermissionLink™</h2>
+                    <p class="feature-lead">Getting permission shouldn't be awkward. PermissionLink lets landowners approve detecting with a simple tap — no phone calls, no paperwork.</p>
+                    <ul class="feature-list">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Send secure digital permission requests
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            QR code sharing for in-person requests
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Landowners set time windows and no-go zones
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Real-time permission status in-app
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            All data encrypted — landowner info never sold
+                        </li>
+                    </ul>
+                    <p class="feature-note"><em>Responsible detecting should be easy. Now it is.</em></p>
+                </div>
+                <div class="feature-detail-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        <rect x="7" y="7" width="3" height="3"></rect>
+                        <rect x="14" y="7" width="3" height="3"></rect>
+                        <rect x="7" y="14" width="3" height="3"></rect>
+                        <rect x="14" y="14" width="3" height="3"></rect>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apple Watch Section -->
+    <section class="section feature-detail-section" id="apple-watch">
+        <div class="container">
+            <div class="feature-detail">
+                <div class="feature-detail-content">
+                    <div class="feature-badge">Pro Feature</div>
+                    <h2>Apple Watch Companion</h2>
+                    <p class="feature-lead">Control your hunt from your wrist. Start, pause, and log finds without pulling out your phone.</p>
+                    <ul class="feature-list">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Gesture controls for hands-free operation
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Live hunt status at a glance
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Quick find logging from your wrist
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Session stats: time, distance, finds
+                        </li>
+                    </ul>
+                </div>
+                <div class="feature-detail-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="6" y="2" width="12" height="20" rx="3" ry="3"></rect>
+                        <circle cx="12" cy="12" r="4"></circle>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Features Grid -->
+    <section class="section features-grid-section">
+        <div class="container">
+            <h2 class="section-title">And Much More</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Badges & Milestones</h3>
+                    <p class="feature-description">Celebrate progress with meaningful achievements: hunts completed, eco-impact, rare finds, lifetime streaks, and more.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Lifetime Stats & Trends</h3>
+                    <p class="feature-description">Track hours hunted, distance covered, find categories, grid efficiency, and how your skills evolve over time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Eco Impact Tracking</h3>
+                    <p class="feature-description">See the difference you make — trash removed, sites cleaned, percentage of responsible recovery.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Offline-First Design</h3>
+                    <p class="feature-description">Download maps for offline use. Hunt in remote areas without cell signal. Sync when you're back online.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Privacy-First</h3>
+                    <p class="feature-description">Your find locations, permissions, and personal data stay private. We never sell your information.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Cloud Sync</h3>
+                    <p class="feature-description">Access your hunts and finds from any device. Never lose your data, even if you switch phones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2 class="cta-headline">Ready to Detect Smarter?</h2>
+            <p class="cta-subtext">Join the waitlist for early access.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSesVLt5tCcgFKJPv9YpGJZncN2zxLc_lmVhecPWRiLz07H13A/viewform?usp=header" class="btn btn-cta">Request Early Access</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">AU</span>
+                        <span class="logo-text">Aureal</span>
+                    </div>
+                    <p class="footer-tagline">Your Data. Your Finds. Always.</p>
+                </div>
+                <div class="footer-nav">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="support.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="mailto:support@aureallabs.com">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aureal Labs LLC. All Rights Reserved.</p>
+                <p class="footer-location">Gainesville, Florida, USA</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
