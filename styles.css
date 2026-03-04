@@ -95,6 +95,20 @@ body {
     font-size: 1.75rem;
 }
 
+.logo-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.ethos-emblem-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -1238,6 +1252,69 @@ input:checked + .toggle-slider::before {
     font-size: 1.5rem;
     color: var(--color-dark);
     letter-spacing: 2px;
+}
+
+/* ==========================================
+   PRO PORTAL SECTION
+   ========================================== */
+
+.pro-portal-section {
+    background: linear-gradient(135deg, rgba(201, 166, 107, 0.08) 0%, rgba(31, 41, 51, 0.6) 100%);
+    border-top: 1px solid rgba(201, 166, 107, 0.2);
+    border-bottom: 1px solid rgba(201, 166, 107, 0.2);
+}
+
+.pro-portal-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.pro-portal-lead {
+    font-size: 1.125rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 2rem;
+    line-height: 1.7;
+}
+
+.pro-portal-text .section-title::after {
+    margin: 1.5rem 0 0;
+}
+
+.pro-portal-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-portal-icon svg {
+    stroke: var(--color-accent);
+    opacity: 0.3;
+}
+
+@media (max-width: 992px) {
+    .pro-portal-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .pro-portal-icon {
+        order: -1;
+    }
+
+    .pro-portal-icon svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .pro-portal-text .section-title {
+        text-align: center !important;
+    }
+
+    .pro-portal-text .section-title::after {
+        margin: 1.5rem auto 0;
+    }
 }
 
 /* ==========================================

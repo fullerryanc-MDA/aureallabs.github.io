@@ -32,19 +32,23 @@
         "offers": {
             "@type": "AggregateOffer",
             "lowPrice": "0",
-            "highPrice": "11.99",
+            "highPrice": "49.99",
             "priceCurrency": "USD",
-            "offerCount": "4"
+            "offerCount": "2"
         },
         "featureList": [
             "GPS Hunt Tracking",
             "Find Logging with Photos",
             "Historic Map Overlays",
+            "PRO Portal Web Dashboard",
+            "LiDAR Terrain Overlays",
+            "AI Hunt Summaries",
+            "Location Intelligence & Spot Ranking",
             "PermissionLink™ Digital Permissions",
             "Responsible Finders Network Submissions",
             "UK PAS and Treasure Act Reporting",
             "Apple Watch Companion",
-            "AR Target Visualization",
+            "Detector Management & Coil Tracking",
             "Offline-First Design",
             "Cloud Sync"
         ],
@@ -65,7 +69,7 @@
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
             <a href="index.html" class="logo">
-                <span class="logo-icon">AU</span>
+                <img src="/logo.png" alt="Aureal" class="logo-img" width="32" height="32">
                 <span class="logo-text">Aureal</span>
             </a>
             <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
@@ -80,6 +84,7 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="support.html">Support</a></li>
+                <li><a href="https://pro.aureallabs.com/login" target="_blank" rel="noopener">PRO Portal</a></li>
             </ul>
             <a href="https://apps.apple.com/app/aureal-metal-detecting/id6755918151" class="btn btn-nav-cta">Download</a>
         </div>
@@ -267,7 +272,7 @@
         <div class="container">
             <div class="feature-detail">
                 <div class="feature-detail-content">
-                    <div class="feature-badge">Scout+ Feature</div>
+                    <div class="feature-badge">Pro Feature</div>
                     <h2>Responsible Finders Network</h2>
                     <p class="feature-lead">Submit discoveries to museums, historical societies, and UK Finds Liaison Officers — all from the app. Build your reputation as a responsible detectorist.</p>
                     <ul class="feature-list">
@@ -311,7 +316,7 @@
         <div class="container">
             <div class="feature-detail reverse">
                 <div class="feature-detail-content">
-                    <div class="feature-badge">Pro / Elite Feature</div>
+                    <div class="feature-badge">Pro Feature</div>
                     <h2>Apple Watch Companion</h2>
                     <p class="feature-lead">Control your hunt from your wrist. Start, pause, and log finds without pulling out your phone — even with dirty hands.</p>
                     <ul class="feature-list">
@@ -329,7 +334,7 @@
                         </li>
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Hands-free gesture controls <span class="tier-note">(Elite)</span>
+                            Complications for watch face at-a-glance stats
                         </li>
                     </ul>
                     <p class="feature-note"><em>Your phone stays in your pocket. Your focus stays on the hunt.</em></p>
@@ -344,45 +349,152 @@
         </div>
     </section>
 
-    <!-- AR Visualization Section -->
-    <section class="section feature-detail-section" id="ar">
+    <!-- PRO Portal Section -->
+    <section class="section pro-portal-section" id="pro-portal">
         <div class="container">
-            <div class="feature-detail">
+            <h2 class="section-title">PRO Portal — Your Hunt Command Center</h2>
+            <p class="section-subtitle">Research on a big screen. Hunt with confidence in the field. The PRO Portal is a full web dashboard included with every Pro subscription.</p>
+
+            <!-- Overlay Creation -->
+            <div class="feature-detail" style="margin-bottom:5rem;">
                 <div class="feature-detail-content">
-                    <div class="feature-badge">Elite Feature</div>
-                    <h2>AR Target Visualization</h2>
-                    <p class="feature-lead">Point your camera at the ground and see exactly where your target is buried. Precision recovery meets augmented reality.</p>
+                    <div class="feature-badge">One-Click Overlays</div>
+                    <h2>Generate Overlays from Government Data</h2>
+                    <p class="feature-lead">No more searching for old maps online. The PRO Portal pulls directly from USGS, NAIP, and SSURGO databases to generate publication-quality overlays in seconds — then syncs them to your phone.</p>
                     <ul class="feature-list">
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Visual target marker overlaid on camera view
+                            <strong>LiDAR terrain:</strong> Hillshade, multi-directional hillshade, slope, aspect, contour lines, and elevation tinting from USGS 3DEP
                         </li>
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Depth indicator based on your detector's reading
+                            <strong>Historic aerials:</strong> NHAP photos from the 1980s and current NAIP imagery at 0.6m resolution
                         </li>
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Smaller plugs, faster recovery
+                            <strong>Soil surveys:</strong> SSURGO soil composition and texture data to identify high-potential ground
                         </li>
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Works with any metal detector
+                            <strong>Land boundaries:</strong> PLSS Township and Section grids for property research
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Per-layer opacity controls, real-time preview, and instant sync to your phone
                         </li>
                     </ul>
-                    <p class="feature-note"><strong>Stop guessing. Start pinpointing.</strong></p>
                 </div>
                 <div class="feature-detail-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <circle cx="12" cy="12" r="6"></circle>
-                        <circle cx="12" cy="12" r="2"></circle>
-                        <line x1="12" y1="2" x2="12" y2="6"></line>
-                        <line x1="12" y1="18" x2="12" y2="22"></line>
-                        <line x1="2" y1="12" x2="6" y2="12"></line>
-                        <line x1="18" y1="12" x2="22" y2="12"></line>
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="3" y1="9" x2="21" y2="9"></line>
+                        <line x1="9" y1="21" x2="9" y2="9"></line>
                     </svg>
                 </div>
+            </div>
+
+            <!-- Hunt Analytics & AI -->
+            <div class="feature-detail reverse" style="margin-bottom:5rem;">
+                <div class="feature-detail-content">
+                    <div class="feature-badge">AI-Powered Analytics</div>
+                    <h2>Hunt History, Finds, & AI Summaries</h2>
+                    <p class="feature-lead">Review every hunt in detail — trail maps, find galleries, coverage stats, and AI-generated performance insights that help you improve.</p>
+                    <ul class="feature-list">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Interactive trail maps with color-coded paths, find markers, and start/end points
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            AI hunt summaries with key highlights and suggestions for improvement
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Advanced find filtering by category, metal type, depth, and notable status
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Full photo gallery, editable find details, and tile or list view modes
+                        </li>
+                    </ul>
+                </div>
+                <div class="feature-detail-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="20" x2="18" y2="10"></line>
+                        <line x1="12" y1="20" x2="12" y2="4"></line>
+                        <line x1="6" y1="20" x2="6" y2="14"></line>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Location Intelligence -->
+            <div class="feature-detail" style="margin-bottom:5rem;">
+                <div class="feature-detail-content">
+                    <div class="feature-badge">Location Intelligence</div>
+                    <h2>Spot Ranking & Trail Stacking</h2>
+                    <p class="feature-lead">Aureal automatically groups your hunts into locations and ranks them — so you always know which spots are worth returning to.</p>
+                    <ul class="feature-list">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Spots ranked by finds per hour, coverage percentage, time invested, and total XP
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Stacked trail mode overlays every hunt at a location to visualize total coverage
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Individual trail mode to review specific hunts at a site
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Interactive map with click-to-select spots and detailed stats panels
+                        </li>
+                    </ul>
+                </div>
+                <div class="feature-detail-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Detector Management & Badges -->
+            <div class="feature-detail reverse">
+                <div class="feature-detail-content">
+                    <div class="feature-badge">Equipment & Achievements</div>
+                    <h2>Detector Profiles, Badges & Data Export</h2>
+                    <p class="feature-lead">Track your equipment performance, earn 50+ achievement badges, and export all your data whenever you want.</p>
+                    <ul class="feature-list">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Manage detectors with brand, model, coil size, and coil type — synced to your phone
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            50+ badges across Discovery, Eco Impact, Consistency, Exploration, and Milestones
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Full data export in JSON or CSV — your data is always yours
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Monthly progress charts, eco impact dashboard, and lifetime stats
+                        </li>
+                    </ul>
+                </div>
+                <div class="feature-detail-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="8" r="7"></circle>
+                        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="section-cta" style="margin-top:4rem;">
+                <a href="https://pro.aureallabs.com/login" class="btn btn-primary" target="_blank" rel="noopener">Open PRO Portal</a>
             </div>
         </div>
     </section>
@@ -461,7 +573,7 @@
     <section class="cta-banner">
         <div class="container">
             <h2 class="cta-headline">Ready to Detect Smarter?</h2>
-            <p class="cta-subtext">Join the waitlist for early access.</p>
+            <p class="cta-subtext">Download Aureal and start your next hunt.</p>
             <a href="https://apps.apple.com/app/aureal-metal-detecting/id6755918151" class="btn btn-cta">Download on the App Store</a>
         </div>
     </section>
@@ -472,7 +584,7 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <div class="logo">
-                        <span class="logo-icon">AU</span>
+                        <img src="/logo.png" alt="Aureal" class="logo-img" width="32" height="32">
                         <span class="logo-text">Aureal</span>
                     </div>
                     <p class="footer-tagline">Your Data. Your Finds. Always.</p>
@@ -483,6 +595,7 @@
                         <li><a href="features.html">Features</a></li>
                         <li><a href="pricing.html">Pricing</a></li>
                         <li><a href="support.html">Support</a></li>
+                        <li><a href="https://pro.aureallabs.com/login" target="_blank" rel="noopener">PRO Portal</a></li>
                     </ul>
                 </div>
                 <div class="footer-nav">
