@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Request deletion of your Aureal account and all associated data.">
+    <link rel="icon" type="image/png" sizes="32x32" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/logo.png">
+    <link rel="canonical" href="https://www.aureallabs.com/delete-account">
+    <title>Delete Account - Aureal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .delete-section {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+        .delete-warning-box {
+            background: rgba(239, 68, 68, 0.08);
+            border: 2px solid rgba(239, 68, 68, 0.25);
+            border-radius: 16px;
+            padding: 32px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .delete-warning-box svg {
+            color: #EF4444;
+            margin-bottom: 12px;
+        }
+        .delete-warning-box h2 {
+            color: #EF4444;
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+        }
+        .delete-warning-box p {
+            color: #999;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        .data-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 40px 0;
+        }
+        .data-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            padding: 16px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        .data-list li svg {
+            color: #EF4444;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .data-list li strong {
+            display: block;
+            color: #e0e0e0;
+            margin-bottom: 2px;
+        }
+        .data-list li span {
+            color: #999;
+            font-size: 0.9rem;
+        }
+        .method-card {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 28px;
+            margin-bottom: 20px;
+        }
+        .method-card h3 {
+            color: #C9A66B;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        .method-card p, .method-card ol {
+            color: #bbb;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+        .method-card ol {
+            padding-left: 20px;
+            margin: 12px 0 0 0;
+        }
+        .method-card ol li {
+            margin-bottom: 8px;
+        }
+        .method-card a {
+            color: #C9A66B;
+            text-decoration: underline;
+        }
+        .retention-box {
+            background: rgba(59, 130, 246, 0.08);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-top: 40px;
+        }
+        .retention-box h3 {
+            color: #60A5FA;
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+        .retention-box p {
+            color: #999;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+        .section-heading {
+            color: #e0e0e0;
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="/logo.png" alt="Aureal" class="logo-img" width="32" height="32">
+                <span class="logo-text">Aureal</span>
+            </a>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="https://pro.aureallabs.com/login" target="_blank" rel="noopener">PRO Portal</a></li>
+            </ul>
+            <a href="https://apps.apple.com/app/aureal-metal-detecting/id6755918151" class="btn btn-nav-cta">Download</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Delete Your Account</h1>
+            <p class="page-subtitle">Request permanent deletion of your Aureal account and all associated data.</p>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <section class="section legal-content-section">
+        <div class="container delete-section">
+
+            <!-- Warning Box -->
+            <div class="delete-warning-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                    <line x1="12" y1="9" x2="12" y2="13"></line>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>
+                <h2>This action is permanent and irreversible</h2>
+                <p>Once your account is deleted, all data is permanently removed from our systems and cannot be recovered.</p>
+            </div>
+
+            <!-- What Gets Deleted -->
+            <h3 class="section-heading">What will be deleted</h3>
+            <ul class="data-list">
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    <div>
+                        <strong>Account information</strong>
+                        <span>Profile, email address, and login credentials</span>
+                    </div>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    <div>
+                        <strong>All finds and photos</strong>
+                        <span>Every find you've logged, including photos, GPS coordinates, and metadata</span>
+                    </div>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon><line x1="8" y1="2" x2="8" y2="18"></line><line x1="16" y1="6" x2="16" y2="22"></line></svg>
+                    <div>
+                        <strong>Hunt history</strong>
+                        <span>GPS paths, coverage data, stats, and all hunt records</span>
+                    </div>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                    <div>
+                        <strong>Achievements and badges</strong>
+                        <span>All progress, badges, and reputation scores</span>
+                    </div>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                    <div>
+                        <strong>Subscriptions and permissions</strong>
+                        <span>Active subscriptions, PermissionLink records, and site listings</span>
+                    </div>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                    <div>
+                        <strong>Overlays and uploaded images</strong>
+                        <span>Historic map overlays, uploaded images, and cached map data</span>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- How to Delete -->
+            <h3 class="section-heading">How to request deletion</h3>
+
+            <div class="method-card">
+                <h3>Option 1: In the app</h3>
+                <p>The fastest way to delete your account:</p>
+                <ol>
+                    <li>Open Aureal and go to <strong>Profile</strong></li>
+                    <li>Tap <strong>Delete Account</strong></li>
+                    <li>Type DELETE and enter your password to confirm</li>
+                    <li>Your account and all data will be deleted immediately</li>
+                </ol>
+            </div>
+
+            <div class="method-card">
+                <h3>Option 2: Email request</h3>
+                <p>If you no longer have access to the app, send an email to:</p>
+                <p style="margin-top: 12px;">
+                    <a href="mailto:support@aureallabs.com?subject=Account%20Deletion%20Request&body=I%20would%20like%20to%20request%20the%20deletion%20of%20my%20Aureal%20account%20and%20all%20associated%20data.%0A%0AAccount%20email%3A%20%0A%0AThank%20you." style="font-size: 1.1rem; font-weight: 600;">support@aureallabs.com</a>
+                </p>
+                <p style="margin-top: 8px;">Include the email address associated with your account. We will verify your identity and process the deletion within 3 business days.</p>
+            </div>
+
+            <!-- Data Retention -->
+            <div class="retention-box">
+                <h3>Data retention policy</h3>
+                <p>After deletion, your data is immediately removed from production systems. Backup copies are automatically purged within 30 days in accordance with GDPR requirements. Anonymized, aggregated analytics data (which cannot identify you) may be retained.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="/logo.png" alt="Aureal" class="logo-img" width="32" height="32">
+                        <span class="logo-text">Aureal</span>
+                    </div>
+                    <p class="footer-tagline">Your Data. Your Finds. Always.</p>
+                </div>
+                <div class="footer-nav">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="https://pro.aureallabs.com/login" target="_blank" rel="noopener">PRO Portal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="mailto:support@aureallabs.com">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="delete-account.html">Delete Account</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aureal Labs LLC. All Rights Reserved.</p>
+                <p class="footer-location">Alachua County, Florida, USA</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
