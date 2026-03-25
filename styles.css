@@ -527,6 +527,21 @@ body {
     line-height: 1.7;
 }
 
+.feature-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.feature-link:hover {
+    color: var(--color-accent-hover);
+    text-decoration: underline;
+}
+
 /* ==========================================
    FEATURE DETAIL SECTIONS
    ========================================== */
