@@ -64,6 +64,35 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ==========================================
+// BLOG CATEGORY FILTERING
+// ==========================================
+
+(function() {
+    const categoryButtons = document.querySelectorAll('.category-btn');
+    const blogCards = document.querySelectorAll('.blog-card[data-category]');
+
+    if (categoryButtons.length > 0 && blogCards.length > 0) {
+        categoryButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Update active button
+                categoryButtons.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+
+                const selected = this.textContent.trim();
+
+                blogCards.forEach(card => {
+                    if (selected === 'All' || card.dataset.category === selected) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    }
+})();
+
+// ==========================================
 // SMOOTH SCROLL FOR ANCHOR LINKS
 // ==========================================
 
