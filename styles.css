@@ -537,6 +537,10 @@ body {
     transition: var(--transition);
 }
 
+.feature-link:visited {
+    color: var(--color-accent);
+}
+
 .feature-link:hover {
     color: var(--color-accent-hover);
     text-decoration: underline;
